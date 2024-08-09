@@ -1,0 +1,148 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maid Service - Booking</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            function updateTotalCost() {
+                let rooms = parseInt($("#id_rooms").val()) || 0;
+                let cleanBathroom = $("#id_clean_bathroom").is(":checked") ? 25 : 0;
+                let cleanKitchen = $("#id_clean_kitchen").is(":checked") ? 25 : 0;
+                let additionalServices = $("#id_additional_services input:checked").length * 15;
+                let total = rooms * 30 + cleanBathroom + cleanKitchen + additionalServices;
+                $("#total-cost").text("$" + total);
+
+                if (total === 0) {
+                    $("#next-button").hide();
+                } else {
+                    $("#next-button").show();
+                }
+            }
+
+            $("#id_rooms, #id_clean_bathroom, #id_clean_kitchen, #id_additional_services input").change(function() {
+                updateTotalCost();
+            });
+
+            updateTotalCost();
+
+            // Add sound effect to buttons
+            var audio = new Audio("{% static 'sounds/sound.mp3' %}");
+
+            $("#sound-button").click(function() {
+                audio.play();
+            });
+
+            // Handle form submission with sound effect
+            $("#next-button").click(function(event) {
+                event.preventDefault(); // Prevent the default form submission
+                audio.play();
+                setTimeout(function() {
+                    $("#service-selection").submit();
+                }, 300); // Delay the form submission by 300 milliseconds to allow the sound to play
+            });
+        });
+            document.addEventListener("DOMContentLoaded", function() {
+            var audio = new Audio("{% static 'sounds/a1.mp4' %}");
+            var image = document.querySelector(".maid-gif");
+
+            image.addEventListener("click", function(event) {
+                event.preventDefault();  // Prevent the default action
+                audio.play().then(() => {
+                    window.location.href = '#maids-section';  // Redirect after the sound plays
+                }).catch(error => {
+                    console.error('Audio play failed:', error);
+                    window.location.href = '#maids-section';  // Redirect even if sound play fails
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <nav class="topnav">
+            <div class="nav-item logo">
+                <img src="{% static 'img/paw.jpeg' %}" alt="Logo" class="logo">
+            </div>
+            <div class="nav-item title">
+                <h1 class="nav-text">KAWAII SPARKLE</h1>
+            </div>
+            <div class="nav-links">
+                <div class="nav-item">
+                    <img src="{% static 'img/logo6.jpeg' %}" alt="Logo" class="logo">
+                    <a href="#">About</a>
+                </div>
+                <div class="nav-item">
+                    <img src="{% static 'img/logo5.jpeg' %}" alt="Logo" class="logo">
+                    <a href="#">Support</a>
+                </div>
+                <div class="nav-item">
+                    <img src="{% static 'img/logo9.jpeg' %}" alt="Logo" class="logo">
+                    <a href="#">Social Media</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+       <div class="video-container">
+         <video autoplay muted>
+             <source src="{% static 'gif/video.mp4' %}" type="video/mp4">
+        </video>
+    </div>
+       <section class="booking-section">
+            <button class="button" id="sound-button" onclick="location.href='#service-selection'">Book Your Maid Service</button>
+        </section>
+        <div class="container">
+            <div class="form-container">
+                <form method="post" id="service-selection">
+                    {% csrf_token %}
+                    <fieldset>
+                        <legend>Select Services</legend>
+                        {{ form.rooms.label_tag }} {{ form.rooms }}
+                        {{ form.clean_bathroom.label_tag }} {{ form.clean_bathroom }}
+                        {{ form.clean_kitchen.label_tag }} {{ form.clean_kitchen }}
+                        {{ form.additional_services.label_tag }}
+                        <div class="additional-services">
+                            {{ form.additional_services }}
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="right-container">
+                <div class="gif-container">
+                   <img src="{% static 'gif/maid2.gif' %}" alt="Maid GIF" class="maid-gif">
+                </div>
+                <div class="total-cost-container">
+                    Total Cost: <span id="total-cost"></span>
+                </div>
+                <button class="button" id="next-button">Next</button>
+            </div>
+        </div>
+        {% if error %}
+            <p style="color: red;">{{ error }}</p>
+        {% endif %}
+        <section style="margin-top: 100px; font-size: 25px; text-align: center" id="maids-section">
+            <h2>Available Maids</h2>
+            <div class="maids-container">
+                {% for maid in maids %}
+                    <div class="maid-profile">
+                        <img src="{{ maid.profile_picture.url }}" alt="{{ maid.name }}" width="100">
+                        <h3>{{ maid.name }}</h3>
+                        <p>{{ maid.bio }}</p>
+                    </div>
+                    {% if forloop.counter|divisibleby:3 and not forloop.last %}
+                        </div><div class="maids-container">
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Maid Service. All rights reserved.</p>
+    </footer>
+<script src="{% static 'js/script.js' %}"></script>
+</body>
+</html>

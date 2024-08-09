@@ -1,0 +1,898 @@
+Watching for file changes with StatReloader
+Waiting for apps ready_event.
+Apps ready_event triggered. Sending autoreload_started signal.
+Watching dir /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/RoyalMaids/templates with glob **/*.
+Watching dir /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/RoyalMaids/booking/templates with glob **/*.
+Watching dir /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/RoyalMaids/locale with glob **/*.mo.
+Watching dir /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/RoyalMaids/booking/locale with glob **/*.mo.
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+(0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/RoyalMaids/booking/apps.py first seen with mtime 1722179218.500167
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/views/generic/__init__.py first seen with mtime 1721999144.5909998
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/exceptions.py first seen with mtime 1721999144.5396445
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/functional.py first seen with mtime 1721999144.5858252
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/dates.py first seen with mtime 1721999144.5845017
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/admin/templatetags/base.py first seen with mtime 1721999144.2370293
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/functions/__init__.py first seen with mtime 1721999144.5649536
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/auth/middleware.py first seen with mtime 1721999144.2761345
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/forms/utils.py first seen with mtime 1721999144.5682628
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/contenttypes/__init__.py first seen with mtime 1721999144.317427
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/base_events.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/numbers.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/admin/decorators.py first seen with mtime 1721999144.1560457
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/threading.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/zlib.cpython-312-darwin.so first seen with mtime 1717710664.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/contenttypes/fields.py first seen with mtime 1721999144.3179047
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/dispatch/__init__.py first seen with mtime 1721999144.567067
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/constants.py first seen with mtime 1721999144.561982
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/wsgiref/handlers.py first seen with mtime 1717710265.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/views/decorators/csrf.py first seen with mtime 1721999144.590406
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/http/response.py first seen with mtime 1721999144.5762599
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/auth/hashers.py first seen with mtime 1721999144.2759833
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/sessions/backends/__init__.py first seen with mtime 1721999144.487742
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/checks/compatibility/__init__.py first seen with mtime 1721999144.5427303
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/__init__.py first seen with mtime 1717710264.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/backends/sqlite3/operations.py first seen with mtime 1721999144.5588045
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/_policybase.py first seen with mtime 1717710264.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/RoyalMaids/booking/models.py first seen with mtime 1722211867.45587
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_uuid.cpython-312-darwin.so first seen with mtime 1717710660.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/auth/forms.py first seen with mtime 1721999144.2758846
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/mimetypes.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/files/storage/__init__.py first seen with mtime 1721999144.5443602
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/ipv6.py first seen with mtime 1721999144.5864227
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py first seen with mtime 1721999144.5493898
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/PIL/Image.py first seen with mtime 1721999258.4661064
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/checks/async_checks.py first seen with mtime 1721999144.5418448
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/urls/exceptions.py first seen with mtime 1721999144.5827572
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/secrets.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/manager.py first seen with mtime 1721999144.5629084
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/migrations/operations/special.py first seen with mtime 1721999144.561397
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/transaction.py first seen with mtime 1721999144.5519137
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/mail/__init__.py first seen with mtime 1721999144.5459418
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/translation/reloader.py first seen with mtime 1721999144.5888493
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/copyreg.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/auth/base_user.py first seen with mtime 1721999144.2753117
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/servers/__init__.py first seen with mtime 1721999144.551476
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/regex_helper.py first seen with mtime 1721999144.5874019
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/queues.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/auth/management/__init__.py first seen with mtime 1721999144.315394
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/cache/backends/__init__.py first seen with mtime 1721999144.5405831
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/__init__.py first seen with mtime 1717710265.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/futures.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/dateformat.py first seen with mtime 1721999144.5842514
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/__init__.py first seen with mtime 1717710265.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/staticfiles/views.py first seen with mtime 1721999144.5383995
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/timezone.py first seen with mtime 1721999144.5881925
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/RoyalMaids/booking/admin.py first seen with mtime 1722179748.3227859
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/files/uploadhandler.py first seen with mtime 1721999144.5441682
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/files/base.py first seen with mtime 1721999144.5435152
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/protocols.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/management/commands/__init__.py first seen with mtime 1721999144.5475929
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/transports.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/hmac.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/concurrent/__init__.py first seen with mtime 1717710264.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/staticfiles/management/commands/__init__.py first seen with mtime 1721999144.5385919
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/sqlparse/filters/right_margin.py first seen with mtime 1721999144.066954
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/cache.py first seen with mtime 1721999144.5835757
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/checks/registry.py first seen with mtime 1721999144.5424042
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/migrations/migration.py first seen with mtime 1721999144.5597632
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/middleware/cache.py first seen with mtime 1721999144.5765061
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/zoneinfo/__init__.py first seen with mtime 1717710265.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/library.py first seen with mtime 1721999144.5785682
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/base_tasks.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/reduction.py first seen with mtime 1717710265.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/query_utils.py first seen with mtime 1721999144.5633488
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/numberformat.py first seen with mtime 1721999144.5872247
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/sqlparse/__init__.py first seen with mtime 1721999144.0643675
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_opcode.cpython-312-darwin.so first seen with mtime 1717710657.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/sql/subqueries.py first seen with mtime 1721999144.5667832
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/__init__.py first seen with mtime 1717710265.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/backends/sqlite3/_functions.py first seen with mtime 1721999144.5580225
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ast.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/urls/utils.py first seen with mtime 1721999144.5829515
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/contenttypes/views.py first seen with mtime 1721999144.3183599
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/pkgutil.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/random.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/messages/__init__.py first seen with mtime 1721999144.4406455
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/importlib/__init__.py first seen with mtime 1717710265.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/admin/options.py first seen with mtime 1721999144.1568427
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/autoreload.py first seen with mtime 1721999144.5834734
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/handlers/wsgi.py first seen with mtime 1721999144.5457625
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/admin/templatetags/log.py first seen with mtime 1721999144.2371178
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/statistics.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/functions/text.py first seen with mtime 1721999144.5657375
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/contenttypes/apps.py first seen with mtime 1721999144.3177
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/admin/exceptions.py first seen with mtime 1721999144.1561463
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/wsgiref/util.py first seen with mtime 1717710265.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/asgiref/__init__.py first seen with mtime 1721999144.0852592
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/migrations/operations/fields.py first seen with mtime 1721999144.5611157
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/mime/__init__.py first seen with mtime 1717710264.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/getpass.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/autoreload.py first seen with mtime 1721999144.5775113
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/checks/translation.py first seen with mtime 1721999144.5425763
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/admin/checks.py first seen with mtime 1721999144.1559417
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_bisect.cpython-312-darwin.so first seen with mtime 1717710652.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/lorem_ipsum.py first seen with mtime 1721999144.5870302
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/enums.py first seen with mtime 1721999144.5622761
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/backends/__init__.py first seen with mtime 1721999144.5793493
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/choices.py first seen with mtime 1721999144.583736
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/admin/widgets.py first seen with mtime 1721999144.1573741
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/auth/admin.py first seen with mtime 1721999144.2748725
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/auth/checks.py first seen with mtime 1721999144.2754834
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/functions/datetime.py first seen with mtime 1721999144.5653005
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_heapq.cpython-312-darwin.so first seen with mtime 1717710655.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/cookies.py first seen with mtime 1717710264.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/sqlparse/exceptions.py first seen with mtime 1721999144.0648186
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/contenttypes/checks.py first seen with mtime 1721999144.3177874
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/__init__.py first seen with mtime 1721999144.583022
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/PIL/ExifTags.py first seen with mtime 1721999258.458059
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/_compression.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/parse.py first seen with mtime 1717710265.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/base64mime.py first seen with mtime 1717710264.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/functions/mixins.py first seen with mtime 1721999144.5655634
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/shutil.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/struct.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/views/defaults.py first seen with mtime 1721999144.5896866
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/server.py first seen with mtime 1717710264.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/__init__.py first seen with mtime 1721999144.5615232
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/urls/resolvers.py first seen with mtime 1721999144.582867
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/string.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/serializers/json.py first seen with mtime 1721999144.5509772
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/streams.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/concurrent/futures/thread.py first seen with mtime 1717710264.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/log.py first seen with mtime 1721999144.586858
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/files/locks.py first seen with mtime 1721999144.5436835
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/select.cpython-312-darwin.so first seen with mtime 1717710663.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/sessions/exceptions.py first seen with mtime 1721999144.487413
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/backends/django.py first seen with mtime 1721999144.5796247
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_constants.py first seen with mtime 1717710265.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/conf/urls/__init__.py first seen with mtime 1721999144.1552138
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/signals.py first seen with mtime 1721999144.5634243
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/taskgroups.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/selectors.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/__future__.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/http/multipartparser.py first seen with mtime 1721999144.5760608
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/format_helpers.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/version.py first seen with mtime 1721999144.5884693
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/defaulttags.py first seen with mtime 1721999144.5781379
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/loaders/app_directories.py first seen with mtime 1721999144.5801015
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/mixins.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/migrations/operations/base.py first seen with mtime 1721999144.5609522
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/sqlparse/tokens.py first seen with mtime 1721999144.0655372
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/dateparse.py first seen with mtime 1721999144.5844128
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/migrations/exceptions.py first seen with mtime 1721999144.5592513
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/backends/__init__.py first seen with mtime 1721999144.5521472
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/forms/fields.py first seen with mtime 1721999144.5676231
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/admin/views/autocomplete.py first seen with mtime 1721999144.237373
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/quopri.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/checks/files.py first seen with mtime 1721999144.5420766
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/middleware/security.py first seen with mtime 1721999144.577316
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/urls/base.py first seen with mtime 1721999144.582503
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/sqlparse/formatter.py first seen with mtime 1721999144.0649955
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/sessions/middleware.py first seen with mtime 1721999144.4875054
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/fractions.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/asgiref/current_thread_executor.py first seen with mtime 1721999144.085453
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/parser.py first seen with mtime 1717710264.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/fields/proxy.py first seen with mtime 1721999144.5642052
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/aggregates.py first seen with mtime 1721999144.5616918
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/timesince.py first seen with mtime 1721999144.5880163
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py first seen with mtime 1721999144.5446808
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py first seen with mtime 1721999144.5582068
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/text.py first seen with mtime 1721999144.587844
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/encoding.py first seen with mtime 1721999144.5852842
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/checks/security/base.py first seen with mtime 1721999144.5430865
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/auth/__init__.py first seen with mtime 1721999144.2746985
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/termcolors.py first seen with mtime 1721999144.5876606
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/forms/renderers.py first seen with mtime 1721999144.5681038
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/base.py first seen with mtime 1721999144.5618753
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/management/color.py first seen with mtime 1721999144.5471087
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/loader_tags.py first seen with mtime 1721999144.5788302
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/asgiref/sync.py first seen with mtime 1721999144.0859742
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/backends/sqlite3/features.py first seen with mtime 1721999144.5586083
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_lzma.cpython-312-darwin.so first seen with mtime 1717710656.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/admin/views/__init__.py first seen with mtime 1721999144.2372048
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/urls/conf.py first seen with mtime 1721999144.5825865
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/base_subprocess.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/token.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/fields/reverse_related.py first seen with mtime 1721999144.564827
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/importlib/resources/_adapters.py first seen with mtime 1717710265.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/files/utils.py first seen with mtime 1721999144.5442533
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/migrations/operations/models.py first seen with mtime 1721999144.5612288
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/forms/formsets.py first seen with mtime 1721999144.5678875
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/sql/constants.py first seen with mtime 1721999144.5662286
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/backends/base/client.py first seen with mtime 1721999144.5528107
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/middleware/common.py first seen with mtime 1721999144.5767615
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/messages/storage/base.py first seen with mtime 1721999144.4415696
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/loaders/cached.py first seen with mtime 1721999144.5802817
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/_os.py first seen with mtime 1721999144.5831134
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/templatetags/tz.py first seen with mtime 1721999144.5811398
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/http/request.py first seen with mtime 1721999144.5761614
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/management/base.py first seen with mtime 1721999144.5470228
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/sqlparse/filters/aligned_indent.py first seen with mtime 1721999144.0664208
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/zoneinfo/_common.py first seen with mtime 1717710265.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/checks/security/__init__.py first seen with mtime 1721999144.5429072
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/migrations/state.py first seen with mtime 1721999144.5603752
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/contextlib.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/sqlparse/cli.py first seen with mtime 1721999144.0647058
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/views/decorators/common.py first seen with mtime 1721999144.5903108
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/generator.py first seen with mtime 1717710264.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py first seen with mtime 1721999144.5636966
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/admin/utils.py first seen with mtime 1721999144.1572661
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_zoneinfo.cpython-312-darwin.so first seen with mtime 1717710661.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/RoyalMaids/booking/views.py first seen with mtime 1722241673.4240906
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/sessions/__init__.py first seen with mtime 1721999144.4871595
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/checks/compatibility/django_4_0.py first seen with mtime 1721999144.5428312
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/operator.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/importlib/resources/_legacy.py first seen with mtime 1717710265.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/checks/caches.py first seen with mtime 1721999144.5419238
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/concurrent/futures/_base.py first seen with mtime 1717710264.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/PIL/_version.py first seen with mtime 1721999258.4569669
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/context.py first seen with mtime 1717710265.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/conf/__init__.py first seen with mtime 1721999144.109303
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/auth/validators.py first seen with mtime 1721999144.2769449
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/fnmatch.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/http.py first seen with mtime 1721999144.5862553
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_casefix.py first seen with mtime 1717710265.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/backends/base/schema.py first seen with mtime 1721999144.5537338
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/wsgiref/headers.py first seen with mtime 1717710265.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/unicodedata.cpython-312-darwin.so first seen with mtime 1717710663.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/forms/forms.py first seen with mtime 1721999144.5677893
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/sqlparse/engine/grouping.py first seen with mtime 1721999144.0660229
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/message.py first seen with mtime 1717710264.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/timeouts.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/asyncio.py first seen with mtime 1721999144.5833628
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/constants.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/sqlparse/filters/others.py first seen with mtime 1721999144.0665812
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/copy.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/tree.py first seen with mtime 1721999144.588368
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/cache/backends/locmem.py first seen with mtime 1721999144.5413115
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ipaddress.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/encoders.py first seen with mtime 1717710264.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/validators.py first seen with mtime 1721999144.5401921
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/_sysconfigdata__darwin_darwin.py first seen with mtime 1717710299.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_decimal.cpython-312-darwin.so first seen with mtime 1717710655.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/handlers/base.py first seen with mtime 1721999144.5454328
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/views/generic/dates.py first seen with mtime 1721999144.5912743
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/inspect.py first seen with mtime 1721999144.586337
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/auth/signals.py first seen with mtime 1721999144.2766223
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/calendar.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/checks/security/sessions.py first seen with mtime 1721999144.5432506
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/files/temp.py first seen with mtime 1721999144.5438523
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/bz2.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/encodings/__init__.py first seen with mtime 1717710264.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/importlib/resources/_common.py first seen with mtime 1717710265.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/views/decorators/debug.py first seen with mtime 1721999144.5905588
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/types.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/fields/mixins.py first seen with mtime 1721999144.5641294
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/fields/generated.py first seen with mtime 1721999144.5639596
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/mime/message.py first seen with mtime 1717710264.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/admin/templatetags/admin_urls.py first seen with mtime 1721999144.236948
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/backends/base/operations.py first seen with mtime 1721999144.5535576
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/staticfiles/handlers.py first seen with mtime 1721999144.5379188
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_ssl.cpython-312-darwin.so first seen with mtime 1717710659.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/cache/utils.py first seen with mtime 1721999144.540493
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/pprint.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py first seen with mtime 1717710264.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/fields/related_lookups.py first seen with mtime 1721999144.564645
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/backends/base/validation.py first seen with mtime 1721999144.553839
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/sql/__init__.py first seen with mtime 1721999144.5659485
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/serializers/python.py first seen with mtime 1721999144.5512176
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/asgiref/local.py first seen with mtime 1721999144.0856287
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/admin/apps.py first seen with mtime 1721999144.155812
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/threads.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/reprlib.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/collections/abc.py first seen with mtime 1717710264.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/unix_events.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/serializers/base.py first seen with mtime 1721999144.550895
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/lookups.py first seen with mtime 1721999144.5627434
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/html.py first seen with mtime 1721999144.5860794
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/difflib.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/deconstruct.py first seen with mtime 1721999144.584591
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/_encoded_words.py first seen with mtime 1717710264.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/json/encoder.py first seen with mtime 1717710265.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/decimal.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/servers/basehttp.py first seen with mtime 1721999144.5516477
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/loaders/filesystem.py first seen with mtime 1721999144.5803714
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/functools.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/mime/nonmultipart.py first seen with mtime 1717710264.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/dataclasses.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/deprecation.py first seen with mtime 1721999144.5849273
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/backends/sqlite3/creation.py first seen with mtime 1721999144.558447
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_sqlite3.cpython-312-darwin.so first seen with mtime 1717710658.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/collections/__init__.py first seen with mtime 1717710264.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_asyncio.cpython-312-darwin.so first seen with mtime 1717710651.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/forms/widgets.py first seen with mtime 1721999144.568379
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/mail/utils.py first seen with mtime 1721999144.5461178
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_scproxy.cpython-312-darwin.so first seen with mtime 1717710658.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/module_loading.py first seen with mtime 1721999144.5871272
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/warnings.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/sqlparse/filters/__init__.py first seen with mtime 1721999144.0662475
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socketserver.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/contextvars.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/admin/templatetags/admin_modify.py first seen with mtime 1721999144.236862
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/logging/config.py first seen with mtime 1717710265.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/pathlib.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/admin/__init__.py first seen with mtime 1721999144.155622
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/messages/middleware.py first seen with mtime 1721999144.4410665
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/__init__.py first seen with mtime 1721999144.5774302
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/_weakrefset.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/sqlparse/filters/output.py first seen with mtime 1721999144.0666795
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/smtplib.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/policy.py first seen with mtime 1717710264.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/messages/constants.py first seen with mtime 1721999144.4408903
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_datetime.cpython-312-darwin.so first seen with mtime 1717710655.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/backends/sqlite3/client.py first seen with mtime 1721999144.5582888
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/gzip.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/json/decoder.py first seen with mtime 1717710265.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/html/__init__.py first seen with mtime 1717710264.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/sqlparse/filters/tokens.py first seen with mtime 1721999144.0670516
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/wsgiref/simple_server.py first seen with mtime 1717710265.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_pickle.cpython-312-darwin.so first seen with mtime 1717710657.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/queue.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/admin/templatetags/admin_list.py first seen with mtime 1721999144.236707
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/templatetags/static.py first seen with mtime 1721999144.5809808
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/utils.py first seen with mtime 1721999144.5635028
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/sites/__init__.py first seen with mtime 1721999144.5129964
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/staticfiles/__init__.py first seen with mtime 1721999144.5374448
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/contenttypes/admin.py first seen with mtime 1721999144.3176105
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/management/__init__.py first seen with mtime 1721999144.54692
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/quoprimime.py first seen with mtime 1717710264.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/process.py first seen with mtime 1717710265.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/html/parser.py first seen with mtime 1717710264.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/exceptions.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/defaultfilters.py first seen with mtime 1721999144.5780046
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/concurrent/futures/__init__.py first seen with mtime 1717710264.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/sites/requests.py first seen with mtime 1721999144.5138083
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/admin/helpers.py first seen with mtime 1721999144.1564682
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/mime/multipart.py first seen with mtime 1717710264.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/apps/config.py first seen with mtime 1721999144.1089945
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/loaders/__init__.py first seen with mtime 1721999144.579998
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/backends/base/__init__.py first seen with mtime 1721999144.5526123
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/inspect.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/json/scanner.py first seen with mtime 1717710265.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/utils.py first seen with mtime 1721999144.5520794
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/checks/model_checks.py first seen with mtime 1721999144.5423183
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/auth/apps.py first seen with mtime 1721999144.2749634
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/signals.py first seen with mtime 1721999144.539903
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_posixsubprocess.cpython-312-darwin.so first seen with mtime 1717710657.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/sessions/backends/base.py first seen with mtime 1721999144.48792
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/translation/__init__.py first seen with mtime 1721999144.5887516
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/base_futures.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/checks/database.py first seen with mtime 1721999144.5419998
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/mime/base.py first seen with mtime 1717710264.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/sqlparse/sql.py first seen with mtime 1721999144.0654454
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/serializers/__init__.py first seen with mtime 1721999144.5507338
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_contextvars.cpython-312-darwin.so first seen with mtime 1717710653.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/sqlparse/engine/statement_splitter.py first seen with mtime 1721999144.066124
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/tempfile.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/_compat_pickle.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/contenttypes/forms.py first seen with mtime 1721999144.318002
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/forms/__init__.py first seen with mtime 1721999144.5673397
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/errors.py first seen with mtime 1717710264.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/pickle.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/expressions.py first seen with mtime 1721999144.5624275
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/certifi/__init__.py first seen with mtime 1722207064.6620445
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/__init__.py first seen with mtime 1717710264.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/sqlparse/engine/__init__.py first seen with mtime 1721999144.0657363
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/sqlparse/keywords.py first seen with mtime 1721999144.0651271
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/math.cpython-312-darwin.so first seen with mtime 1717710662.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/cache/__init__.py first seen with mtime 1721999144.5404034
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/query.py first seen with mtime 1721999144.563223
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/backends/sqlite3/__init__.py first seen with mtime 1721999144.5578368
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/__init__.py first seen with mtime 1721999144.551755
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_json.cpython-312-darwin.so first seen with mtime 1717710656.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/auth/models.py first seen with mtime 1721999144.2763915
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/admin/actions.py first seen with mtime 1721999144.1557229
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/staticfiles/management/__init__.py first seen with mtime 1721999144.5384862
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/utils.py first seen with mtime 1721999144.5792642
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/fields/files.py first seen with mtime 1721999144.563807
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/enum.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/backends/sqlite3/schema.py first seen with mtime 1721999144.558905
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/contentmanager.py first seen with mtime 1717710264.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/traceback.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/keyword.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/argparse.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/indexes.py first seen with mtime 1721999144.5626209
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/staticfiles/apps.py first seen with mtime 1721999144.5375488
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_queue.cpython-312-darwin.so first seen with mtime 1717710657.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/base64.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/__init__.py first seen with mtime 1721999144.5393944
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/migrations/utils.py first seen with mtime 1721999144.560524
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/files/storage/mixins.py first seen with mtime 1721999144.5450027
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/files/storage/handler.py first seen with mtime 1721999144.5447607
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/importlib/resources/abc.py first seen with mtime 1717710265.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/__init__.py first seen with mtime 1721999144.1554863
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/messages/api.py first seen with mtime 1721999144.440729
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/staticfiles/utils.py first seen with mtime 1721999144.538307
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/messages/storage/__init__.py first seen with mtime 1721999144.4414115
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/backends/base/features.py first seen with mtime 1721999144.5531752
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/RoyalMaids/RoyalMaids/settings.py first seen with mtime 1722241776.343432
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/messages/apps.py first seen with mtime 1721999144.4408116
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/staticfiles/management/commands/runserver.py first seen with mtime 1721999144.5389764
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/contenttypes/models.py first seen with mtime 1721999144.3181744
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/platform.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/deletion.py first seen with mtime 1721999144.562188
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/views/decorators/__init__.py first seen with mtime 1721999144.5900428
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/duration.py first seen with mtime 1721999144.5850747
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/files/uploadedfile.py first seen with mtime 1721999144.5440109
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/_virtualenv.py first seen with mtime 1721999028.6472654
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/backends/base.py first seen with mtime 1721999144.57946
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/certifi/core.py first seen with mtime 1722207064.664118
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/itercompat.py first seen with mtime 1721999144.5865076
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/html/entities.py first seen with mtime 1717710264.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/admin/sites.py first seen with mtime 1721999144.1569738
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/error.py first seen with mtime 1717710265.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/fields/related.py first seen with mtime 1721999144.564351
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/trsock.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/uuid.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socket.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/templatetags/l10n.py first seen with mtime 1721999144.5808191
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/encodings/utf_8_sig.py first seen with mtime 1717710264.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/locks.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/_header_value_parser.py first seen with mtime 1717710264.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_compiler.py first seen with mtime 1717710265.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/backends/utils.py first seen with mtime 1721999144.552543
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/RoyalMaids/manage.py first seen with mtime 1722004615.1880949
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/RoyalMaids/booking/__init__.py first seen with mtime 1722179218.4986935
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/base.py first seen with mtime 1721999144.5776372
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/mime/text.py first seen with mtime 1717710264.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/sites/shortcuts.py first seen with mtime 1721999144.513888
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/sessions/base_session.py first seen with mtime 1721999144.4873283
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/gettext.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/middleware/__init__.py first seen with mtime 1721999144.5763328
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/loaders/base.py first seen with mtime 1721999144.58019
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/PIL/__init__.py first seen with mtime 1721999258.4592733
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/views/generic/list.py first seen with mtime 1721999144.5917697
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/binascii.cpython-312-darwin.so first seen with mtime 1717710661.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/views/generic/edit.py first seen with mtime 1721999144.591602
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/urls/__init__.py first seen with mtime 1721999144.582344
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/staticfiles/checks.py first seen with mtime 1721999144.537642
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/apps/__init__.py first seen with mtime 1721999144.1088157
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/functions/window.py first seen with mtime 1721999144.5658307
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/sessions/models.py first seen with mtime 1721999144.487585
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/response.py first seen with mtime 1721999144.579001
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/sqlparse/filters/reindent.py first seen with mtime 1721999144.0668578
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/admin/filters.py first seen with mtime 1721999144.1562622
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/files/storage/memory.py first seen with mtime 1721999144.5449238
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/utils.py first seen with mtime 1717710264.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/events.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/cache/backends/filebased.py first seen with mtime 1721999144.541219
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_socket.cpython-312-darwin.so first seen with mtime 1717710658.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/bisect.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/engine.py first seen with mtime 1721999144.5783079
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_statistics.cpython-312-darwin.so first seen with mtime 1717710659.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_blake2.cpython-312-darwin.so first seen with mtime 1717710652.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/RoyalMaids/RoyalMaids/__init__.py first seen with mtime 1721999196.1252239
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/mail/message.py first seen with mtime 1721999144.546039
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/shortcuts.py first seen with mtime 1721999144.1086948
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/signal.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/subprocess.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/checks/security/csrf.py first seen with mtime 1721999144.5431728
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/dis.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/handlers/asgi.py first seen with mtime 1721999144.545265
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/locale.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/wsgiref/__init__.py first seen with mtime 1717710265.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/signing.py first seen with mtime 1721999144.5400817
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/constraints.py first seen with mtime 1721999144.5620828
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/admin/templatetags/__init__.py first seen with mtime 1721999144.2365963
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/staggered.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/importlib/resources/__init__.py first seen with mtime 1717710265.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/backends/base/base.py first seen with mtime 1721999144.5527287
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/loader.py first seen with mtime 1721999144.5786574
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/sqlparse/lexer.py first seen with mtime 1721999144.0653172
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/conf/urls/static.py first seen with mtime 1721999144.1554
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/zoneinfo/_tzpath.py first seen with mtime 1717710265.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/json/__init__.py first seen with mtime 1717710265.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/conf/global_settings.py first seen with mtime 1721999144.1094444
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/contenttypes/management/__init__.py first seen with mtime 1721999144.3416195
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/backends/sqlite3/introspection.py first seen with mtime 1721999144.5587056
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/options.py first seen with mtime 1721999144.563034
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/heapq.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/sqlite3/dbapi2.py first seen with mtime 1717710265.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/sql/where.py first seen with mtime 1721999144.5669513
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/weakref.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py first seen with mtime 1721999144.5445185
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/exceptions.py first seen with mtime 1721999144.5783982
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/cache/backends/base.py first seen with mtime 1721999144.540775
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/tasks.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/functions/math.py first seen with mtime 1721999144.5654693
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_bz2.cpython-312-darwin.so first seen with mtime 1717710652.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/views/static.py first seen with mtime 1721999144.589958
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/graphlib.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/apps/registry.py first seen with mtime 1721999144.1091092
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/paginator.py first seen with mtime 1721999144.539817
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/messages/utils.py first seen with mtime 1721999144.4412227
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/charset.py first seen with mtime 1717710264.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/backends/base/creation.py first seen with mtime 1721999144.5529807
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/auth/backends.py first seen with mtime 1721999144.2751305
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/encodings/aliases.py first seen with mtime 1717710264.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/files/images.py first seen with mtime 1721999144.5435984
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/views/debug.py first seen with mtime 1721999144.589529
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/views/i18n.py first seen with mtime 1721999144.5898623
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/iterators.py first seen with mtime 1717710264.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/checks/messages.py first seen with mtime 1721999144.5421562
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/migrations/__init__.py first seen with mtime 1721999144.5590098
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/datastructures.py first seen with mtime 1721999144.5840802
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_sha2.cpython-312-darwin.so first seen with mtime 1717710658.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/auth/password_validation.py first seen with mtime 1721999144.2765496
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/fcntl.cpython-312-darwin.so first seen with mtime 1717710662.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/textwrap.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/RoyalMaids/booking/urls.py first seen with mtime 1722206879.388622
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/logging/handlers.py first seen with mtime 1717710265.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/staticfiles/finders.py first seen with mtime 1721999144.537824
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/hashable.py first seen with mtime 1721999144.5859082
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/migrations/operations/__init__.py first seen with mtime 1721999144.5607932
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/sql/query.py first seen with mtime 1721999144.5666063
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/sessions/apps.py first seen with mtime 1721999144.487246
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/context.py first seen with mtime 1721999144.5778043
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/hashlib.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/logging/__init__.py first seen with mtime 1717710265.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/__init__.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/files/move.py first seen with mtime 1721999144.543773
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/dispatch/dispatcher.py first seen with mtime 1721999144.5671537
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/forms/boundfield.py first seen with mtime 1721999144.567498
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/formats.py first seen with mtime 1721999144.5856516
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/checks/templates.py first seen with mtime 1721999144.5424933
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/_osx_support.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/functions/comparison.py first seen with mtime 1721999144.5651267
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/translation/trans_real.py first seen with mtime 1721999144.5892148
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/opcode.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/admin/views/main.py first seen with mtime 1721999144.2375798
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/selector_events.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/views/decorators/cache.py first seen with mtime 1721999144.590142
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/sqlparse/utils.py first seen with mtime 1721999144.065625
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/linecache.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/conf/locale/__init__.py first seen with mtime 1721999144.1102567
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/views/generic/base.py first seen with mtime 1721999144.5911658
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/feedparser.py first seen with mtime 1717710264.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/coroutines.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/tokenize.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/smartif.py first seen with mtime 1721999144.5791698
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_hashlib.cpython-312-darwin.so first seen with mtime 1717710655.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/urls/converters.py first seen with mtime 1721999144.5826676
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/response.py first seen with mtime 1717710265.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/__init__.py first seen with mtime 1721999144.1084213
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/checks/__init__.py first seen with mtime 1721999144.5417678
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/views/__init__.py first seen with mtime 1721999144.5893266
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/sysconfig.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/importlib/_abc.py first seen with mtime 1717710265.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/sql/datastructures.py first seen with mtime 1721999144.566404
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/backends/ddl_references.py first seen with mtime 1721999144.5523088
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/fields/json.py first seen with mtime 1721999144.564053
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/RoyalMaids/RoyalMaids/urls.py first seen with mtime 1722186451.1216252
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/backends/signals.py first seen with mtime 1721999144.5523834
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_struct.cpython-312-darwin.so first seen with mtime 1717710659.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/termios.cpython-312-darwin.so first seen with mtime 1717710663.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/header.py first seen with mtime 1717710264.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/sslproto.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/crypto.py first seen with mtime 1721999144.583913
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_parser.py first seen with mtime 1717710265.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/templatetags/__init__.py first seen with mtime 1721999144.5805342
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/wsgi.py first seen with mtime 1721999144.5402803
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/auth/tokens.py first seen with mtime 1721999144.2767751
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/http/cookie.py first seen with mtime 1721999144.5759575
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/middleware/csrf.py first seen with mtime 1721999144.5768626
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/http/__init__.py first seen with mtime 1721999144.5758798
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/RoyalMaids/booking/forms.py first seen with mtime 1722201722.638592
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/_parseaddr.py first seen with mtime 1717710264.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/array.cpython-312-darwin.so first seen with mtime 1717710661.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/views/generic/detail.py first seen with mtime 1721999144.591443
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/datetime.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/templatetags/cache.py first seen with mtime 1721999144.5806322
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/connection.py first seen with mtime 1721999144.5838227
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/headerregistry.py first seen with mtime 1717710264.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/admin/models.py first seen with mtime 1721999144.1566384
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/_markupbase.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/files/__init__.py first seen with mtime 1721999144.5433571
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/handlers/__init__.py first seen with mtime 1721999144.545077
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/typing.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/encodings/utf_8.py first seen with mtime 1717710264.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lib-dynload/_random.cpython-312-darwin.so first seen with mtime 1717710657.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/log.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/fields/related_descriptors.py first seen with mtime 1721999144.5644858
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/checks/urls.py first seen with mtime 1721999144.542656
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/glob.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/templatetags/i18n.py first seen with mtime 1721999144.5807297
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/request.py first seen with mtime 1717710265.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/subprocess.py first seen with mtime 1717710263.0
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/sqlite3/__init__.py first seen with mtime 1717710265.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/safestring.py first seen with mtime 1721999144.5874925
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/backends/base/introspection.py first seen with mtime 1721999144.55341
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/lzma.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/sqlparse/engine/filter_stack.py first seen with mtime 1721999144.0658236
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/forms/models.py first seen with mtime 1721999144.5680263
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/utils/decorators.py first seen with mtime 1721999144.5847645
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py first seen with mtime 1721999144.5455937
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/RoyalMaids/booking/templates/booking first seen with mtime 1722203498.6360424
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/RoyalMaids/booking/templates/booking/home.html first seen with mtime 1722201449.0765986
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/RoyalMaids/booking/templates/booking/select_schedule.html first seen with mtime 1722203498.6359346
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/RoyalMaids/booking/templates/booking/confirmation.html first seen with mtime 1722201449.0872073
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/RoyalMaids/booking/templates/booking/payment.html first seen with mtime 1722201449.0829675
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/RoyalMaids/booking/templates/booking/select_maid.html first seen with mtime 1722201449.0801508
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/RoyalMaids/booking/templates/booking/success.html first seen with mtime 1722198691.9545143
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/RoyalMaids/booking/templates/booking/personal_info.html first seen with mtime 1722201241.8385262
+Exception while resolving variable 'items' in template 'django/forms/label.html'.
+Traceback (most recent call last):
+  File "/Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'items'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'items'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [items] in None
+Exception while resolving variable 'class' in template 'django/forms/widgets/checkbox_select.html'.
+Traceback (most recent call last):
+  File "/Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'class'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'class'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'class'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [class] in {'id': 'id_additional_services'}
+(0.000) SELECT "booking_maid"."id", "booking_maid"."name", "booking_maid"."bio", "booking_maid"."profile_picture", "booking_maid"."available_times" FROM "booking_maid" LIMIT 21; args=(); alias=default
+Exception while resolving variable 'error' in template 'booking/home.html'.
+Traceback (most recent call last):
+  File "/Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+  File "/Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'error'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/base.py", line 881, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(
+                                            ^^^^^^^^
+AttributeError: type object 'RequestContext' has no attribute 'error'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'error'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [error] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: 'Sl3G0jbi4bQluZxrXNieHFxcJBY4L5F5UQZi9pumTBiXV7t0BajkcOEahJHxAJBm'>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x1076b9a80>>, 'perms': PermWrapper(<SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x1076b9a80>>), 'messages': <FallbackStorage: request=<WSGIRequest: GET '/'>>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <ServiceSelectionForm bound=False, valid=False, fields=(rooms;clean_bathroom;clean_kitchen;additional_services)>, 'maids': <QuerySet [<Maid: Beverley>, <Maid: Donna>, <Maid: Courtney>]>}]
+(0.000) SELECT "booking_maid"."id", "booking_maid"."name", "booking_maid"."bio", "booking_maid"."profile_picture", "booking_maid"."available_times" FROM "booking_maid"; args=(); alias=default
+"GET / HTTP/1.1" 200 5231
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/RoyalMaids/booking/migrations/0003_alter_booking_first_name_alter_booking_last_name_and_more.py first seen with mtime 1722210787.5408251
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/auth/migrations/0006_require_contenttypes_0002.py first seen with mtime 1721999144.316477
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/encodings/idna.py first seen with mtime 1717710264.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/messages/storage/cookie.py first seen with mtime 1721999144.4417288
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/admin/migrations/__init__.py first seen with mtime 1721999144.2178426
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/contenttypes/migrations/0002_remove_content_type_name.py first seen with mtime 1721999144.3420727
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/stringprep.py first seen with mtime 1717710263.0
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/admin/migrations/0001_initial.py first seen with mtime 1721999144.2176235
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/auth/migrations/0005_alter_user_last_login_null.py first seen with mtime 1721999144.316385
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/auth/migrations/0002_alter_permission_name_max_length.py first seen with mtime 1721999144.3160944
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/auth/migrations/0008_alter_user_username_max_length.py first seen with mtime 1721999144.316649
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/PIL/_typing.py first seen with mtime 1721999258.4567223
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/contenttypes/migrations/__init__.py first seen with mtime 1721999144.3421178
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/PIL/_imaging.cpython-312-darwin.so first seen with mtime 1721999258.462102
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/RoyalMaids/booking/migrations/__init__.py first seen with mtime 1722179218.500593
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/migrations/graph.py first seen with mtime 1721999144.5595114
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/admin/migrations/0003_logentry_add_action_flag_choices.py first seen with mtime 1721999144.21779
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/auth/migrations/0011_update_proxy_permissions.py first seen with mtime 1721999144.3169103
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/auth/migrations/0012_alter_user_first_name_max_length.py first seen with mtime 1721999144.3169918
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/sessions/backends/db.py first seen with mtime 1721999144.4881778
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/sessions/migrations/__init__.py first seen with mtime 1721999144.5122976
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/auth/migrations/0010_alter_group_name_max_length.py first seen with mtime 1721999144.3168247
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/middleware/clickjacking.py first seen with mtime 1721999144.5765865
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/PIL/_binary.py first seen with mtime 1721999258.4658568
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/auth/migrations/__init__.py first seen with mtime 1721999144.3170395
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/views/csrf.py first seen with mtime 1721999144.5894186
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/RoyalMaids/booking/migrations/0001_initial.py first seen with mtime 1722184576.3450253
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/admin/migrations/0002_logentry_remove_auto_add.py first seen with mtime 1721999144.2177033
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/auth/migrations/0001_initial.py first seen with mtime 1721999144.3160012
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/migrations/loader.py first seen with mtime 1721999144.5596037
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/messages/storage/session.py first seen with mtime 1721999144.4419012
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/auth/migrations/0003_alter_user_email_max_length.py first seen with mtime 1721999144.316191
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/auth/migrations/0009_alter_user_last_name_max_length.py first seen with mtime 1721999144.316744
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/sessions/serializers.py first seen with mtime 1721999144.4876635
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/messages/storage/fallback.py first seen with mtime 1721999144.4418201
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/sessions/migrations/0001_initial.py first seen with mtime 1721999144.5122397
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/migrations/executor.py first seen with mtime 1721999144.5593476
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/RoyalMaids/booking/migrations/0002_booking_total_cost_availability.py first seen with mtime 1722201369.76943
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/PIL/_deprecate.py first seen with mtime 1721999258.4586036
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/staticfiles/storage.py first seen with mtime 1721999144.538034
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/auth/context_processors.py first seen with mtime 1721999144.2757144
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/migrations/recorder.py first seen with mtime 1721999144.5600977
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/PIL/ImageMode.py first seen with mtime 1721999258.4540813
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/contenttypes/migrations/0001_initial.py first seen with mtime 1721999144.3419905
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/PIL/_util.py first seen with mtime 1721999258.4641962
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/auth/migrations/0004_alter_user_username_opts.py first seen with mtime 1721999144.3162892
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/db/models/sql/compiler.py first seen with mtime 1721999144.5661285
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/auth/migrations/0007_alter_validators_add_error_messages.py first seen with mtime 1721999144.3165689
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/contrib/messages/context_processors.py first seen with mtime 1721999144.4409688
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/PIL/TiffTags.py first seen with mtime 1721999258.4640439
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/RoyalMaids/RoyalMaids/wsgi.py first seen with mtime 1722004615.191401
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/context_processors.py first seen with mtime 1721999144.5778937
+(0.000) SELECT "booking_maid"."id", "booking_maid"."name", "booking_maid"."bio", "booking_maid"."profile_picture", "booking_maid"."available_times" FROM "booking_maid" WHERE "booking_maid"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /select-schedule/1/ HTTP/1.1" 200 1710
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/conf/locale/en/formats.py first seen with mtime 1721999144.1182547
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/conf/locale/en/__init__.py first seen with mtime 1721999144.1181457
+(0.000) SELECT "booking_maid"."id", "booking_maid"."name", "booking_maid"."bio", "booking_maid"."profile_picture", "booking_maid"."available_times" FROM "booking_maid" WHERE "booking_maid"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-07-29 08:29:47.522146' AND "django_session"."session_key" = 'v9urmb6vdy4fzpq4tx4q5207wuua50ey') LIMIT 21; args=('2024-07-29 08:29:47.522146', 'v9urmb6vdy4fzpq4tx4q5207wuua50ey'); alias=default
+(0.000) SELECT 1 AS "a" FROM "booking_booking" WHERE ("booking_booking"."maid_id" = 1 AND django_datetime_cast_date("booking_booking"."scheduled_time", 'UTC', 'UTC') = '2024-07-31' AND django_datetime_cast_time("booking_booking"."scheduled_time", 'UTC', 'UTC') >= '08:00:00' AND django_datetime_cast_time("booking_booking"."scheduled_time", 'UTC', 'UTC') < '11:00:00') LIMIT 1; args=(1, 1, 'UTC', 'UTC', '2024-07-31', 'UTC', 'UTC', '08:00:00', 'UTC', 'UTC', '11:00:00'); alias=default
+(0.000) SELECT 1 AS "a" FROM "booking_booking" WHERE ("booking_booking"."maid_id" = 1 AND django_datetime_cast_date("booking_booking"."scheduled_time", 'UTC', 'UTC') = '2024-07-31' AND django_datetime_cast_time("booking_booking"."scheduled_time", 'UTC', 'UTC') >= '12:00:00' AND django_datetime_cast_time("booking_booking"."scheduled_time", 'UTC', 'UTC') < '15:00:00') LIMIT 1; args=(1, 1, 'UTC', 'UTC', '2024-07-31', 'UTC', 'UTC', '12:00:00', 'UTC', 'UTC', '15:00:00'); alias=default
+"GET /get-availability/1/2024-07-31/ HTTP/1.1" 200 25
+File /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/_strptime.py first seen with mtime 1717710263.0
+(0.000) SELECT "booking_maid"."id", "booking_maid"."name", "booking_maid"."bio", "booking_maid"."profile_picture", "booking_maid"."available_times" FROM "booking_maid" WHERE "booking_maid"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-07-29 08:29:48.608866' AND "django_session"."session_key" = 'v9urmb6vdy4fzpq4tx4q5207wuua50ey') LIMIT 21; args=('2024-07-29 08:29:48.608866', 'v9urmb6vdy4fzpq4tx4q5207wuua50ey'); alias=default
+Updated session booking data: {'rooms': 4, 'clean_bathroom': True, 'clean_kitchen': True, 'additional_services': [], 'maid': 1, 'scheduled_time': '2024-07-31 08:00'}
+(0.000) BEGIN; args=None; alias=default
+(0.000) UPDATE "django_session" SET "session_data" = '.eJxVj0FuxCAMRa9SeZ2JgCaAsuy-J6gq5GB3oElACqSb0dy9RJqR2u37z1_fN3B41OCOwruLBBNI6P6yGf3C6QzoG9M19z6nuse5P5X-kZb-PROvbw_3X0HAEtq1ISOUJSmUtmYcEbVg60cyWrNhUp4NClKaZumHZhHhINkrHuWX1cK20jnnJaarI6wI0w32nLcC09CBXxlTm1rDyWCq-8FPusTqA6cnRKJYY064urbuJ3puFR-fHWx4vi87KE2nY2VyNW7cpiuhhoswl1f5IuwkBNzvv9H-ZnY:1sYLlM:fMtB-J7kR_jI-qf-gN9-P1dfPUdvdt5uHvBPKIVOE0w', "expire_date" = '2024-08-12 08:29:48.610524' WHERE "django_session"."session_key" = 'v9urmb6vdy4fzpq4tx4q5207wuua50ey'; args=('.eJxVj0FuxCAMRa9SeZ2JgCaAsuy-J6gq5GB3oElACqSb0dy9RJqR2u37z1_fN3B41OCOwruLBBNI6P6yGf3C6QzoG9M19z6nuse5P5X-kZb-PROvbw_3X0HAEtq1ISOUJSmUtmYcEbVg60cyWrNhUp4NClKaZumHZhHhINkrHuWX1cK20jnnJaarI6wI0w32nLcC09CBXxlTm1rDyWCq-8FPusTqA6cnRKJYY064urbuJ3puFR-fHWx4vi87KE2nY2VyNW7cpiuhhoswl1f5IuwkBNzvv9H-ZnY:1sYLlM:fMtB-J7kR_jI-qf-gN9-P1dfPUdvdt5uHvBPKIVOE0w', '2024-08-12 08:29:48.610524', 'v9urmb6vdy4fzpq4tx4q5207wuua50ey'); alias=default
+(0.001) COMMIT; args=None; alias=default
+"POST /select-schedule/1/ HTTP/1.1" 302 0
+"GET /personal-info/ HTTP/1.1" 200 1748
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-07-29 08:29:52.429361' AND "django_session"."session_key" = 'v9urmb6vdy4fzpq4tx4q5207wuua50ey') LIMIT 21; args=('2024-07-29 08:29:52.429361', 'v9urmb6vdy4fzpq4tx4q5207wuua50ey'); alias=default
+Total cost not found in session.
+Bad Request: /personal-info/
+"POST /personal-info/ HTTP/1.1" 400 58
+Exception while resolving variable 'items' in template 'django/forms/label.html'.
+Traceback (most recent call last):
+  File "/Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'items'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'items'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [items] in None
+Exception while resolving variable 'class' in template 'django/forms/widgets/checkbox_select.html'.
+Traceback (most recent call last):
+  File "/Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'class'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'class'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'class'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [class] in {'id': 'id_additional_services'}
+(0.001) SELECT "booking_maid"."id", "booking_maid"."name", "booking_maid"."bio", "booking_maid"."profile_picture", "booking_maid"."available_times" FROM "booking_maid" LIMIT 21; args=(); alias=default
+Exception while resolving variable 'error' in template 'booking/home.html'.
+Traceback (most recent call last):
+  File "/Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+  File "/Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'error'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/base.py", line 881, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(
+                                            ^^^^^^^^
+AttributeError: type object 'RequestContext' has no attribute 'error'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'error'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/.venv/lib/python3.12/site-packages/django/template/base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [error] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: 'faHhfFcnHCC6kbZumPYdM5qd9VyK2RVkhFDToLvrw24ILjV30cZjhexbH3hdRvRB'>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x1077c7240>>, 'perms': PermWrapper(<SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x1077c7240>>), 'messages': <FallbackStorage: request=<WSGIRequest: GET '/'>>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <ServiceSelectionForm bound=False, valid=False, fields=(rooms;clean_bathroom;clean_kitchen;additional_services)>, 'maids': <QuerySet [<Maid: Beverley>, <Maid: Donna>, <Maid: Courtney>]>}]
+(0.000) SELECT "booking_maid"."id", "booking_maid"."name", "booking_maid"."bio", "booking_maid"."profile_picture", "booking_maid"."available_times" FROM "booking_maid"; args=(); alias=default
+"GET / HTTP/1.1" 200 5231
+(0.001) SELECT "booking_maid"."id", "booking_maid"."name", "booking_maid"."bio", "booking_maid"."profile_picture", "booking_maid"."available_times" FROM "booking_maid" WHERE "booking_maid"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /select-schedule/1/ HTTP/1.1" 200 1710
+(0.000) SELECT "booking_maid"."id", "booking_maid"."name", "booking_maid"."bio", "booking_maid"."profile_picture", "booking_maid"."available_times" FROM "booking_maid" WHERE "booking_maid"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-07-29 08:31:29.825482' AND "django_session"."session_key" = 'v9urmb6vdy4fzpq4tx4q5207wuua50ey') LIMIT 21; args=('2024-07-29 08:31:29.825482', 'v9urmb6vdy4fzpq4tx4q5207wuua50ey'); alias=default
+(0.000) SELECT 1 AS "a" FROM "booking_booking" WHERE ("booking_booking"."maid_id" = 1 AND django_datetime_cast_date("booking_booking"."scheduled_time", 'UTC', 'UTC') = '2024-07-31' AND django_datetime_cast_time("booking_booking"."scheduled_time", 'UTC', 'UTC') >= '08:00:00' AND django_datetime_cast_time("booking_booking"."scheduled_time", 'UTC', 'UTC') < '11:00:00') LIMIT 1; args=(1, 1, 'UTC', 'UTC', '2024-07-31', 'UTC', 'UTC', '08:00:00', 'UTC', 'UTC', '11:00:00'); alias=default
+(0.000) SELECT 1 AS "a" FROM "booking_booking" WHERE ("booking_booking"."maid_id" = 1 AND django_datetime_cast_date("booking_booking"."scheduled_time", 'UTC', 'UTC') = '2024-07-31' AND django_datetime_cast_time("booking_booking"."scheduled_time", 'UTC', 'UTC') >= '12:00:00' AND django_datetime_cast_time("booking_booking"."scheduled_time", 'UTC', 'UTC') < '15:00:00') LIMIT 1; args=(1, 1, 'UTC', 'UTC', '2024-07-31', 'UTC', 'UTC', '12:00:00', 'UTC', 'UTC', '15:00:00'); alias=default
+"GET /get-availability/1/2024-07-31/ HTTP/1.1" 200 25
+(0.000) SELECT "booking_maid"."id", "booking_maid"."name", "booking_maid"."bio", "booking_maid"."profile_picture", "booking_maid"."available_times" FROM "booking_maid" WHERE "booking_maid"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-07-29 08:31:31.541852' AND "django_session"."session_key" = 'v9urmb6vdy4fzpq4tx4q5207wuua50ey') LIMIT 21; args=('2024-07-29 08:31:31.541852', 'v9urmb6vdy4fzpq4tx4q5207wuua50ey'); alias=default
+Updated session booking data: {'rooms': 4, 'clean_bathroom': True, 'clean_kitchen': True, 'additional_services': [], 'maid': 1, 'scheduled_time': '2024-07-31 08:00'}
+(0.000) BEGIN; args=None; alias=default
+(0.001) UPDATE "django_session" SET "session_data" = '.eJxVj0FuxCAMRa9SeZ2JgCaAsuy-J6gq5GB3oElACqSb0dy9RJqR2u37z1_fN3B41OCOwruLBBNI6P6yGf3C6QzoG9M19z6nuse5P5X-kZb-PROvbw_3X0HAEtq1ISOUJSmUtmYcEbVg60cyWrNhUp4NClKaZumHZhHhINkrHuWX1cK20jnnJaarI6wI0w32nLcC09CBXxlTm1rDyWCq-8FPusTqA6cnRKJYY064urbuJ3puFR-fHWx4vi87KE2nY2VyNW7cpiuhhoswl1f5IuwkBNzvv9H-ZnY:1sYLn1:3Rm_a74wAzjarHMjaBEpkpq0wAebuuHWoUzg7OfoGGw', "expire_date" = '2024-08-12 08:31:31.543503' WHERE "django_session"."session_key" = 'v9urmb6vdy4fzpq4tx4q5207wuua50ey'; args=('.eJxVj0FuxCAMRa9SeZ2JgCaAsuy-J6gq5GB3oElACqSb0dy9RJqR2u37z1_fN3B41OCOwruLBBNI6P6yGf3C6QzoG9M19z6nuse5P5X-kZb-PROvbw_3X0HAEtq1ISOUJSmUtmYcEbVg60cyWrNhUp4NClKaZumHZhHhINkrHuWX1cK20jnnJaarI6wI0w32nLcC09CBXxlTm1rDyWCq-8FPusTqA6cnRKJYY064urbuJ3puFR-fHWx4vi87KE2nY2VyNW7cpiuhhoswl1f5IuwkBNzvv9H-ZnY:1sYLn1:3Rm_a74wAzjarHMjaBEpkpq0wAebuuHWoUzg7OfoGGw', '2024-08-12 08:31:31.543503', 'v9urmb6vdy4fzpq4tx4q5207wuua50ey'); alias=default
+(0.001) COMMIT; args=None; alias=default
+"POST /select-schedule/1/ HTTP/1.1" 302 0
+"GET /personal-info/ HTTP/1.1" 200 1748
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-07-29 08:31:34.833665' AND "django_session"."session_key" = 'v9urmb6vdy4fzpq4tx4q5207wuua50ey') LIMIT 21; args=('2024-07-29 08:31:34.833665', 'v9urmb6vdy4fzpq4tx4q5207wuua50ey'); alias=default
+Total cost not found in session.
+Bad Request: /personal-info/
+"POST /personal-info/ HTTP/1.1" 400 58
+File /Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/RoyalMaids/booking/views.py previous mtime: 1722241673.4240906, current mtime: 1722241995.3775344
+/Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/RoyalMaids/booking/views.py notified as changed. Signal results: [(<function template_changed at 0x10588d620>, None), (<function translation_file_changed at 0x106e01800>, None)].
+/Users/mashabodowskaya/textapp/SomebodyGonnaBeYourBuddy/RoyalMaids/booking/views.py changed, reloading.

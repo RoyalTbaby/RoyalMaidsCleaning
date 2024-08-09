@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Booking Confirmation</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/confirmation.css' %}">
+<body>
+    <header>
+    <nav class="topnav">
+        <div class="nav-item logo">
+            <img src="{% static 'img/paw.jpeg' %}" alt="Logo" class="logo">
+        </div>
+        <div class="nav-item title">
+            <h1 class="nav-text">KAWAII SPARKLE</h1>
+        </div>
+        <div class="nav-links">
+            <div class="nav-item">
+                <img src="{% static 'img/logo6.jpeg' %}" alt="Logo" class="logo">
+                <a href="#">About</a>
+            </div>
+            <div class="nav-item">
+                <img src="{% static 'img/logo5.jpeg' %}" alt="Logo" class="logo">
+                <a href="#">Support</a>
+            </div>
+            <div class="nav-item">
+                <img src="{% static 'img/logo9.jpeg' %}" alt="Logo" class="logo">
+                <a href="#">Social Media</a>
+            </div>
+        </div>
+    </nav>
+</header>
+<body>
+    <h1 style="">Thank you for your booking!</h1>
+    <p style="text-align: center">You will receive a confirmation email shortly.</p>
+    <footer>
+        <p>&copy; 2024 Maid Service. All rights reserved.</p>
+    </footer>
+</body>
+</html>

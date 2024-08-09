@@ -1,0 +1,286 @@
+@font-face {
+    font-family: 'Minecraftia';
+    src: url('/static/fonts/minecraftia.ttf') format('truetype');
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #FDABDD, #374A5A);
+    position: relative;
+    overflow-x: hidden;
+    font-family: 'Minecraftia', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.topnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+    width: 100%;
+    height: 60px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.nav-item.logo {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.nav-item.title {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.nav-item img {
+    margin-right: 5px;
+    height: 40px;
+}
+
+.nav-item a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.nav-item h1 {
+    color: white;
+    font-family: 'Minecraftia', sans-serif;
+    text-decoration: none;
+    font-size: 35px;
+    margin-bottom: 3px;
+    padding-right: 460px;
+}
+
+.nav-item a:hover {
+    background-color: lightpink;
+    color: black;
+}
+
+.nav-item a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: #FF69B4; /* Hot pink */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-shadow: 2px 2px 0 #FFA07A, -2px -2px 0 #FFA07A; /* Light salmon shadow */
+}
+
+.main-container {
+    margin-top: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-grow: 1;
+    padding: 20px;
+    gap: 20px;
+}
+
+.word-container {
+    position: relative;
+    margin-right: 30px;
+    width: 60%;
+    max-width: 650px;
+}
+
+.word-image {
+    width: 110%;
+    height: 700px;
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+}
+
+.form-container {
+    position: absolute;
+    top: 30%;
+    left: 6%;
+    width: 93%;
+    height: 50%;
+    overflow: auto;
+    font-size: 10px;
+    padding: 17px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 5px #FF69B4;
+}
+
+.fieldset {
+    border: 8px solid pink;
+    background: #FFE8EF;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    box-shadow: 0 0 5px #FF69B4; /* Pink shadow */
+    border-radius: 5px;
+}
+
+.gif-container {
+    width: 50%;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.maid-gif {
+    width: 90%;
+    height: auto;
+    margin-top: 1px;
+    margin-left: 24px;
+    border: 20px solid #ffb0de;
+    box-shadow: 0 0 0 5px rgb(53, 53, 53);
+    cursor: pointer;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #FF69B4;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 4px #999;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: pink;
+}
+
+.button:active {
+    background-color: pink;
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+}
+
+/* Kawaii 90's pixel game style for the date picker */
+input[type="date"],
+.time-slot {
+    font-family: 'Minecraftia', sans-serif;
+    font-size: 14px;
+    background-color: #FFC0CB; /* Light pink background */
+    border: 2px solid #FF69B4; /* Hot pink border */
+    border-radius: 5px;
+    padding: 5px;
+    color: #000;
+    box-shadow: 0 0 5px #FF69B4; /* Pink shadow */
+    text-align: center;
+    width: auto;
+    margin: 5px 30px;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-clear-button {
+    display: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #FF69B4; /* Hot pink background */
+    padding: 5px;
+}
+
+/* Calendar styling */
+.calendar {
+    width: 100%;
+    max-width: 320px;
+    margin: 20px auto;
+    background-color: #FFC0CB;
+    border: 2px solid #FF69B4;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #FF69B4;
+    padding: 10px;
+    font-family: 'Minecraftia', sans-serif;
+}
+
+.calendar table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.calendar th,
+.calendar td {
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #FF69B4;
+}
+
+.calendar th {
+    background-color: #FF69B4;
+    color: white;
+}
+
+.calendar td {
+    background-color: #FFE8EF;
+}
+
+.calendar .today {
+    background-color: yellow;
+}
+
+footer {
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+    color: black;
+    padding: 10px 0;
+}
+
+#next-button {
+    margin-top: 3px;
+    height: 93px;
+    margin-left: 23px;
+    border: 3px solid #FFC0CB;
+    width: 89%;
+    font-size: 20px;
+    font-family: 'Minecraftia', serif;
+    border-radius: 0;
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, 1);
+}
+
+
+#next-button1 {
+    border: 1px solid #FFC0CB;
+    margin-top: 50px;
+    width: 30%;
+    font-size: 20px;
+    font-family: 'Minecraftia', serif;
+    border-radius: 0;
+    background: pink;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 1);
+}

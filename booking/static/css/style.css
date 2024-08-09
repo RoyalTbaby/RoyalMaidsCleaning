@@ -1,0 +1,292 @@
+@font-face {
+    font-family: 'Minecraftia';
+    src: url('/static/fonts/minecraftia.ttf') format('truetype');
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #FDABDD, #374A5A);
+    position: relative;
+    overflow-x: hidden;
+    font-family: 'Minecraftia', sans-serif;
+}
+
+.topnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+    width: 100%;
+    height: 60px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.nav-item.logo {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.nav-item.title {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 28px;
+    margin-left: 20px;
+}
+
+.nav-item img {
+    margin-right: 5px;
+    height: 40px;
+}
+
+.nav-item a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.nav-item h1 {
+    color: white;
+    font-family: 'Minecraftia', sans-serif;
+    text-decoration: none;
+    font-size: 35px;
+    margin-bottom: 3px;
+    padding-right: 460px;
+}
+
+.nav-item a:hover {
+    background-color: lightpink;
+    color: black;
+}
+
+.nav-item a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: #FF69B4; /* Hot pink */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-shadow: 2px 2px 0 #FFA07A, -2px -2px 0 #FFA07A; /* Light salmon shadow */
+}
+
+.booking-section {
+    font-family: 'Minecraftia', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+
+.button {
+    margin-top: 40px;
+    padding: 20px 30px;
+    display: inline-block;
+    font-size: 50px;
+    font-family: 'Minecraftia', serif;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: lightgrey;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    height: 110px;
+}
+
+fieldset {
+    border: 8px solid pink;
+    width: 100%;
+    background: #FFE8EF;
+    padding-bottom: 20px;
+}
+
+fieldset legend {
+    background: lightpink;
+    padding: 6px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #7a3d7d;
+}
+
+.additional-services {
+    display: flex;
+    flex-direction: column;
+}
+
+#service-selection {
+    margin-top: 100px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+input[type="checkbox"] {
+    margin-right: 50px;
+    transform: scale(1.5);
+    border: 10px solid darkgrey;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 1);
+}
+
+input[type="checkbox"], select {
+    margin-right: 10px;
+    appearance: none;
+    background-color: pink;
+    border: 1px solid #CCA383;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+}
+
+input[type="checkbox"]:checked::after, select:checked::after {
+    content: "\2713";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+}
+
+input[type="number"] {
+    transform: scale(1.2);
+    border: 1px solid darkgrey;
+    background: pink;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    width: 3%;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 1);
+    height: 23px;
+}
+
+input[type="number"]:valid {
+    border-color: #CCA383;
+    font-family: 'Minecraftia', serif;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+/* Optional: Add styling for the focus state to enhance user experience */
+input[type="number"]:focus {
+    border-color: mediumpurple;
+    outline: none;
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.total-cost-container {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    background: #FFE8EF;
+    padding: 10px;
+    border: 7px solid lightpink;
+    margin-left: 22px;
+    height: 210px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 1);
+}
+
+.button:hover {
+    background-color: darkgrey;
+}
+
+.button:active {
+    background-color: lightpink;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.form-container {
+    flex: 2;
+}
+
+.right-container {
+    flex: 1;
+}
+
+.gif-container {
+    margin-top: 118px;
+    margin-left: 22px;
+    border: 7px solid hotpink;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 1);
+}
+
+#next-button {
+    margin-top: 0px;
+    margin-left: 22px;
+    border: 6px solid grey;
+    width: 96%;
+    height: 215px;
+    border-radius: 0;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 1);
+}
+
+.maids-container .maid-profile {
+    width: 33%;
+    float: left;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.maids-container img {
+    width: 100%;
+    height: auto;
+    border: 2px solid white;
+}
+
+ .video-container {
+            position: relative;
+            width: 100%;
+            height: 500px; /* Desired height of the video */
+            overflow: hidden;
+            border-bottom: 3px solid black;
+        }
+
+.video-container video {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            height: 167%;
+            width: auto;
+            transform: translateX(-50%);
+        }
+
+.gif1-container img {
+    margin-left: 400px;
+    border: 7px solid hotpink;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 1);
+}

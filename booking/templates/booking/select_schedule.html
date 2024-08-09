@@ -1,0 +1,136 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Select Schedule</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/schedule.css' %}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#date-picker").change(function() {
+                let date = $(this).val();
+                let maidId = "{{ maid.id }}";
+                $.getJSON("{% url 'get_availability' maid.id 'PLACEHOLDER' %}".replace('PLACEHOLDER', date), function(data) {
+                    $("#time-slots").empty();
+                    $.each(data.time_slots, function(index, timeSlot) {
+                        $("#time-slots").append('<button type="button" class="time-slot" data-time="' + timeSlot + '">' + timeSlot + '</button>');
+                    });
+
+                    $(".time-slot").click(function() {
+                        $(".time-slot").removeClass("selected");
+                        $(this).addClass("selected");
+                        $("#selected-time-slot").val($(this).data("time"));
+                    });
+                });
+            });
+
+            // Play random sounds on GIF click
+            const sounds = [
+                "{% static 'sounds/chan.mp3' %}",
+                "{% static 'sounds/a1.mp4' %}",
+                "{% static 'sounds/arigatou.mp3' %}",
+                "{% static 'sounds/doshitandeska.mp3' %}",
+                "{% static 'sounds/doshitano.mp3' %}",
+                "{% static 'sounds/kampai.mp3' %}",
+                "{% static 'sounds/ohayo.mp3' %}",
+                "{% static 'sounds/sumimasen.mp3' %}"
+            ];
+
+            $(".maid-gif").click(function() {
+                const randomSound = sounds[Math.floor(Math.random() * sounds.length)];
+                const audio = new Audio(randomSound);
+                audio.play();
+            });
+            
+            const nextButtonSound = new Audio("{% static 'sounds/sound.mp3' %}");
+            const nextButton1Sound = new Audio("{% static 'sounds/sound.mp3' %}");
+
+            $("#next-button").click(function(event) {
+            event.preventDefault(); // Prevent the default action to play the sound first
+            nextButtonSound.play().then(() => {
+            window.location.href = $(this).attr('href'); // Navigate to the URL after the sound plays
+             }).catch(() => {
+            // Fallback in case the sound cannot be played
+            window.location.href = $(this).attr('href');
+            });
+    });
+
+    // Play sound on next-button1 click
+    $("#next-button1").click(function() {
+        nextButton1Sound.play();
+    });
+});
+    </script>
+    <style>
+        .time-slot {
+            margin: 5px;
+            padding: 10px;
+            cursor: pointer;
+            font-family: 'Minecraftia', sans-serif;
+            font-size: 14px;
+            background-color: #FFC0CB; /* Light pink background */
+            border: 2px solid #FF69B4; /* Hot pink border */
+            border-radius: 5px;
+            color: #000;
+            box-shadow: 0 0 5px #FF69B4; /* Pink shadow */
+            text-align: center;
+        }
+        .selected {
+            background-color: lightgreen;
+        }
+    </style>
+      </head>
+<body>
+    <header>
+        <nav class="topnav">
+            <div class="nav-item logo">
+                <img src="{% static 'img/paw.jpeg' %}" alt="Logo" class="logo">
+            </div>
+            <div class="nav-item title">
+                <h1 class="nav-text">KAWAII SPARKLE</h1>
+            </div>
+            <div class="nav-links">
+                <div class="nav-item">
+                    <img src="{% static 'img/logo6.jpeg' %}" alt="Logo" class="logo">
+                    <a href="#">About</a>
+                </div>
+                <div class="nav-item">
+                    <img src="{% static 'img/logo5.jpeg' %}" alt="Logo" class="logo">
+                    <a href="#">Support</a>
+                </div>
+                <div class="nav-item">
+                    <img src="{% static 'img/logo9.jpeg' %}" alt="Logo" class="logo">
+                    <a href="#">Social Media</a>
+                </div>
+            </div>
+        </nav>
+    <main class="main-container">
+        <div class="word-container">
+            <img src="{% static 'img/word.png' %}" alt="Microsoft Word" class="word-image">
+            <div class="form-container">
+                <h1>Select Schedule for {{ maid.name }} ^_^</h1>
+                <form method="post">
+                    {% csrf_token %}
+                    <fieldset>
+                        <div>
+                            <label for="date-picker">Select Date:</label>
+                            <input type="date" id="date-picker" name="date" required>
+                        </div>
+                        <div id="time-slots"></div>
+                        <input type="hidden" id="selected-time-slot" name="time_slot" required>
+                    </fieldset>
+                    <button id="next-button1" type="submit">Next</button>
+                </form>
+            </div>
+        </div>
+        <div class="gif-container">
+            <img src="{% static 'img/maidmaid.gif' %}" alt="Maid GIF" class="maid-gif">
+            <a class="button" href="{% url 'select_maid' %}" id="next-button">Can't find a needed time within {{maid.name}}'s calendar? Choose another maid!</a>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Maid Service. All rights reserved.</p>
+    </footer>
+</body>
+</html>

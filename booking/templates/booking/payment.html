@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment</title>
+</head>
+<body>
+    <h1>Payment for Booking</h1>
+    <p>Total Cost: ${{ booking.total_cost }}</p>
+    <form method="post">
+        {% csrf_token %}
+        <!-- Payment fields like card details -->
+        <button type="submit">Pay Now</button>
+    </form>
+</body>
+</html>

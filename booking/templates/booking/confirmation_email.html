@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Booking Confirmation</title>
+    <style>
+        body {
+            font-family: '', Courier, monospace !important;
+        }
+        h2 {
+            color: #e91e63;
+            font-family: 'Courier New', Courier, monospace !important;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            font-family: 'Courier New', Courier, monospace !important;
+        }
+        li {
+            margin-bottom: 10px;
+            font-family: 'Courier New', Courier, monospace !important;
+        }
+        p {
+            font-family: 'Courier New', Courier, monospace !important;
+        }
+    </style>
+</head>
+<body>
+    <h2>Thank you for your booking, {{ booking.first_name }}!</h2>
+    <p>Here are the details:</p>
+    <ul>
+        <li><strong>Your Maid:</strong> {{ booking.maid.name }}</li>
+        <li><strong>Date and Time:</strong> {{ booking.scheduled_time }}</li>
+        <li><strong>Total Cost:</strong> ${{ booking.total_cost }}</li>
+        <li><strong>Your Address:</strong> {{ booking.address }}, {{ booking.city }}, {{ booking.state }}, {{ booking.zip_code }}, {{ booking.country }}</li>
+    </ul>
+    <p>See you!</p>
+</body>
+</html>
+

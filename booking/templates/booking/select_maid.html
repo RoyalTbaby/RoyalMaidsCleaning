@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Paint</title>
+    <link rel="stylesheet" href="{% static 'css/select.css' %}">
+</head>
+<body>
+    <header>
+    <nav class="topnav">
+        <div class="nav-item logo">
+            <img src="{% static 'img/paw.jpeg' %}" alt="Logo" class="logo">
+        </div>
+        <div class="nav-item title">
+            <h1 class="nav-text">KAWAII SPARKLE</h1>
+        </div>
+        <div class="nav-links">
+            <div class="nav-item">
+                <img src="{% static 'img/logo6.jpeg' %}" alt="Logo" class="logo">
+                <a href="#">About</a>
+            </div>
+            <div class="nav-item">
+                <img src="{% static 'img/logo5.jpeg' %}" alt="Logo" class="logo">
+                <a href="#">Support</a>
+            </div>
+            <div class="nav-item">
+                <img src="{% static 'img/logo9.jpeg' %}" alt="Logo" class="logo">
+                <a href="#">Social Media</a>
+            </div>
+        </div>
+    </nav>
+</header>
+    <main>
+        <div class="paint-window">
+            <img src="{% static 'img/paint.png' %}" alt="Paint Window" class="background-image">
+            <div class="content">
+                <ul>
+                    {% for maid in maids %}
+                        <li>
+                            <img src="{{ maid.profile_picture.url }}" alt="{{ maid.name }}" width="100">
+                            <div>
+                                <h3>{{ maid.name }}</h3>
+                                <p>{{ maid.bio }}</p>
+                                <a id="select-button" href="{% url 'select_schedule' maid.id %}">Select</a>
+                            </div>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Maid Service. All rights reserved.</p>
+    </footer>
+</body>
+</html>

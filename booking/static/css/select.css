@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'Minecraftia';
+    src: url('/static/fonts/minecraftia.ttf') format('truetype');
+}
+
+body {
+    background: linear-gradient(to bottom right, #FDABDD, #374A5A);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Minecraftia', sans-serif;
+    margin: 0;
+}
+
+.topnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+    width: 100%;
+    height: 60px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.nav-item.logo {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.nav-item.title {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 28px;
+    margin-left: 20px;
+}
+
+.nav-item img {
+    margin-right: 5px;
+    height: 40px;
+}
+
+.nav-item a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.nav-item h1 {
+    color: white;
+    font-family: 'Minecraftia', sans-serif;
+    text-decoration: none;
+    font-size: 35px;
+    margin-bottom: 3px;
+    padding-right: 525px;
+}
+
+.nav-item a:hover {
+    background-color: lightpink;
+    color: black;
+}
+
+.nav-item a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: #FF69B4; /* Hot pink */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-shadow: 2px 2px 0 #FFA07A, -2px -2px 0 #FFA07A; /* Light salmon shadow */
+}
+
+.paint-window {
+    position: relative;
+    margin-top: 20px;
+    width: 800px;
+    height: 800px;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.content {
+    position: absolute;
+    top: 100px; /* Adjust the top value based on the exact position of the content area in the image */
+    left: 50px; /* Adjust the left value based on the exact position of the content area in the image */
+    width: 700px; /* Adjust the width based on the exact width of the content area in the image */
+    height: 500px; /* Adjust the height based on the exact height of the content area in the image */
+    overflow-y: auto;
+    z-index: 2;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    color: black;
+    padding: 5px;
+    margin-right: 12px;
+    border-radius: 5px;
+    margin-left: 80px;
+    height: 230px;
+    background: radial-gradient(#eeaeca, #9f5dad);
+}
+
+li img {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+li h3 {
+    margin: 10px 10px 9px 140px;
+    font-size: 20px;
+}
+
+li p {
+    margin: 10px 0;
+    flex: 1;
+    font-size: 14px;
+}
+
+li a {
+    background-color: #ff99cc;
+    border: 3px solid #7a3d7d;
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+li a:hover {
+    background-color: #ff66aa;
+}
+
+footer {
+    margin-top: auto;
+    width: 100%;
+    text-align: center;
+    color: black;
+    padding: 10px 0;
+}
+
+#next-button1 {
+    border: 1px solid #FFC0CB;
+    margin-top: 50px;
+    width: 30%;
+    margin-left: 260px;
+    font-size: 20px;
+    font-family: 'Minecraftia', serif;
+    border-radius: 0;
+    background: pink;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 1);
+}
